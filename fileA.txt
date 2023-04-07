@@ -1,0 +1,2 @@
+"feature 1 wip with 2 bugs"
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -input /user/cloudera/input -output /user/cloudera/output_join -mapper /home/cloudera/join1_mapper.py -reducer /home/cloudera/join1_reducer.py
